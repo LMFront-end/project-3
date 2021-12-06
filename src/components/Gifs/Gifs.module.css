@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Exo:wght@400;600&family=Poppins:wght@200;300&family=Raleway:wght@200;300;500&family=Roboto:wght@100;300&display=swap');
+variables
+/*Colors*/
+
+:root {
+    --bColor: #f6e58d;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.title__trendings {
+    font-family: 'Changa One', cursive;
+    font-size: 30px;
+    text-decoration: underline;
+    color: #ED4C67;
+}
+
+.gifs {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    background: var(--bColor);
+    padding: 30px 15px;
+    gap: 15px;
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Exo:wght@400;600&family=Poppins:wght@200;300&family=Raleway:wght@200;300;500&family=Roboto:wght@100;300&display=swap');
+.results {
+    margin: 40px 0px;
+    text-align: center;
+}
+
+h3 {
+    color: #1535e7;
+    font-family: 'Changa One', cursive;
+}
+
+.container__results {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container__gifs {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    background: var(--bColor);
+    padding: 30px 15px;
+    gap: 10px;
+}
+
+.container__gifs img {
+    margin: 5px;
+    margin-bottom: -10px;
+    width: 260px;
+    height: 210px;
+    border: 2px dashed #f9ca24;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
